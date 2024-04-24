@@ -112,6 +112,13 @@ section {
     background-color: goldenrod;
 }
 
+.websites img {
+    transition: transform .2s;
+}
+
+.websites img:hover {
+    transform:scale(1.5);
+}
 #contact {
     display: flex;
     flex-direction: column;
