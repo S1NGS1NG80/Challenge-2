@@ -21,6 +21,7 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    color:goldenrod;
 }
 
 .nav a{
@@ -29,6 +30,7 @@ body {
     margin: 5px;
     padding: 5px;
     background-color: darkolivegreen;
+    color: gold;
 }
 
 .header nav a:hover {
@@ -53,8 +55,9 @@ a {
     display: block;
     max-height: 100%;
     max-width: 100%;
-    padding: 10px;
+    border: 2px solid black;
     margin: 10px;
+    box-shadow: 5px 5px grey
    }
 
 #about {
@@ -64,15 +67,20 @@ a {
     white-space: wrap;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 
 .blurb {
     font-size: large;
-    border: 5px black;
+    padding: 10px;
+    background-color:darkkhaki;
+    border: 2px solid black;
+    box-shadow: 5px 5px grey;
 }
 
 aside {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
@@ -85,6 +93,7 @@ h2 {
 aside section{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     width: 200px;
     height: 200px;
     border: 5px solid black;
@@ -97,10 +106,18 @@ section {
     padding: 10px;
 }
 
+.websites {
+    position: relative;
+    border-radius: 25px;
+    background-color: goldenrod;
+}
+
 #contact {
     display: flex;
-    justify-content:space-evenly;
+    flex-direction: column;
+    font-size: large;
 }
+
 
 .footer {
     padding: 30px;
